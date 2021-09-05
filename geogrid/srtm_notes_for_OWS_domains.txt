@@ -1,0 +1,8 @@
+AND_ARW_Operational is NOT using SRTM 15sec topography
+The SRTM_FAIL file has the paths to the SRTM data included
+but the domain seg-faults when trying to use it
+
+
+The standard topography AND_GEOGRID file does NOT include the paths
+to the SRTM data BUT to keep the filename pattern the same, it DOES
+have SRTM in the filename so that auto_wrf doesn't fail
